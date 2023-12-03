@@ -1,0 +1,547 @@
+/* Sign In Popup (Desktop) */
+
+position: relative;
+width: 1440px;
+height: 1080px;
+
+/* White */
+background: #FFFFFF;
+
+
+/* Left */
+
+position: absolute;
+height: 1080px;
+left: 0px;
+right: 704px;
+top: 0px;
+
+
+
+/* Image Placeholder */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Paste image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(chair652841244e395.jpg), #F3F5F7;
+background-blend-mode: multiply, normal;
+
+
+/* Logo */
+
+position: absolute;
+width: 105px;
+height: 24px;
+left: 315px;
+top: 32px;
+
+
+
+/* 3legant. */
+
+position: absolute;
+width: 105px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height, or 100% */
+text-align: center;
+
+color: #000000;
+
+
+
+/* Sign in */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 456px;
+height: 376px;
+right: 160px;
+top: 220px;
+
+/* Neutral/01/100% */
+background: #FEFEFE;
+
+
+/* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 456px;
+height: 94px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 456px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 456px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Sign In */
+
+width: 456px;
+height: 44px;
+
+/* Headline 4 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 44px;
+/* identical to box height, or 110% */
+letter-spacing: -0.4px;
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Don’t have an accout yet? Sign Up */
+
+width: 456px;
+height: 26px;
+
+/* Body 2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral/04/100% */
+color: #6C7275;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Form+Rating */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 456px;
+height: 170px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Form */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 456px;
+height: 170px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Form Input */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 8px;
+gap: 10px;
+
+width: 456px;
+height: 40px;
+
+/* Neutral/03/100% */
+border-bottom: 1px solid #E8ECEF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 8px;
+gap: 16px;
+
+width: 456px;
+height: 40px;
+
+/* Neutral/03/100% */
+border-bottom: 1px solid #E8ECEF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Content */
+
+width: 456px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Your usernam or email address */
+
+position: absolute;
+width: 456px;
+height: 26px;
+left: 0px;
+top: calc(50% - 26px/2 - 3px);
+
+/* Body 2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral/04/100% */
+color: #6C7275;
+
+
+
+/* Form Input */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 8px;
+gap: 10px;
+
+width: 456px;
+height: 40px;
+
+/* Neutral/03/100% */
+border-bottom: 1px solid #E8ECEF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Content */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 8px;
+gap: 16px;
+
+width: 456px;
+height: 40px;
+
+/* Neutral/03/100% */
+border-bottom: 1px solid #E8ECEF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Content */
+
+width: 456px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Password */
+
+position: absolute;
+width: 456px;
+height: 26px;
+left: 0px;
+top: calc(50% - 26px/2 - 3px);
+
+/* Body 2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral/04/100% */
+color: #6C7275;
+
+
+
+/* Huge-icon/interface/outline/eye */
+
+position: absolute;
+left: 94.74%;
+right: 0%;
+top: 12.5%;
+bottom: 12.5%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 20.83%;
+bottom: 20.83%;
+
+/* Neutral/04/100% */
+border: 1.5px solid #6C7275;
+
+
+/* option */
+
+width: 456px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Forgot password? */
+
+position: absolute;
+width: 139px;
+height: 26px;
+right: 0px;
+top: calc(50% - 26px/2);
+
+/* Body 2 (Semi) */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+
+/* ratio button */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 1px;
+
+/* Neutrals/8 */
+background: #FCFCFD;
+/* Neutral/04/100% */
+border: 1.5px solid #6C7275;
+border-radius: 4px;
+
+
+/* icons/Check/Line */
+
+position: absolute;
+visibility: hidden;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Remember me */
+
+position: absolute;
+width: 110px;
+height: 26px;
+left: 36px;
+top: 0px;
+
+/* Body 2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral/04/100% */
+color: #6C7275;
+
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 40px;
+gap: 8px;
+
+width: 456px;
+height: 48px;
+
+/* Neutral/07/100% */
+background: #141718;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Show more */
+
+width: 50px;
+height: 28px;
+
+/* Button S */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+text-align: center;
+letter-spacing: -0.4px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;

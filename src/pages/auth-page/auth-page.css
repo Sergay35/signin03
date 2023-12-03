@@ -1,0 +1,59 @@
+.auth-page {
+    font-family: Inter , serif;
+    background-color: #FFFFFF;
+    position: relative;
+    width: 1120px;
+    height: 1080px;
+}
+.left{
+    position: absolute;
+    height: 1080px;
+    left: 0px;
+    right: 544px;
+    top: 0px;
+    }
+    .imagePlaceholder{
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    }
+    .pasteImage {
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #F3F5F7;
+    background-blend-mode:multiply, normal; 
+    } 
+    .logo {
+      position: absolute;
+      width: 105px;
+      height: 24px;
+      left: 315px;
+      top: 32px;
+    }
+    .legant {
+    position: absolute;
+    width: 105px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    } 
+    .right{
+    position: absolute;
+    height: 1080px;
+    left:544px;
+    right: 0px;
+    top: 0px;
+       
+    }
